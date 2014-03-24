@@ -1,0 +1,18 @@
+<h1>Locations</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Position</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @locations.each do |location| %>
+      <tr>
+        <td><%= location.name %></td>
+        <td><%= location.point.y %>, <%= location.point.x %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
