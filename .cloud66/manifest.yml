@@ -4,7 +4,7 @@ production:
             unique_name: frontend
     postgresql:
        server: 
-            shared_server: frontend
+            same_as: frontend
        configuration:
            version: 9.3.4
            postgis:
