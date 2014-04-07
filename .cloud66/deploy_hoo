@@ -1,0 +1,15 @@
+production: 
+    last_thing:
+        command: cd $STACK_PATH && bundle exec rake db:seed
+        target: rails
+        apply_during: build_only
+development: 
+    last_thing:
+        command: cd $STACK_PATH && bundle exec rake db:seed
+        target: rails
+        apply_during: build_only        
+staging: 
+    last_thing:
+        command: cd $STACK_PATH && bundle exec rake db:seed
+        target: rails
+        apply_during: build_only
