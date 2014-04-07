@@ -9,3 +9,4 @@
 Location.create name: 'Wellington', point: RGeo::Geographic.spherical_factory(srid: 4326).point(174.7730682333, -41.2917018833)
 Location.create name: 'Auckland', point: RGeo::Geographic.spherical_factory(srid: 4326).point(174.766886807604, -36.8434799429435)
 Location.create name: 'Christchurch', point: RGeo::Geographic.spherical_factory(srid: 4326).point(172.63674625, -43.5305637667)
+Location.create name: 'Sao Paulo', point: RGeo::Geographic.spherical_factory(srid: 4326).point(23.5500, 46.6333)
