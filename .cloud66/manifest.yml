@@ -3,7 +3,7 @@ production:
         server:
             unique_name: frontend
         configuration:
-            ruby_version: 2.1.2
+            ruby_version: 2.1.5
     postgresql:
        server: 
             unique_name: postgresql
