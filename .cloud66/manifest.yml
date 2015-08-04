@@ -3,14 +3,14 @@ production:
         server:
             unique_name: frontend
         configuration:
-            ruby_version: 2.1.2
+            ruby_version: 2.2.2
     postgresql:
        server: 
             unique_name: postgresql
        configuration:
-           version: 9.3.4
+           version: 9.4.4
            postgis:
-               version: 2.1.1
+               version: 2.1.5
 # Cannot be specified anymore
 #          geos: 
 #              version: 3.4.2
