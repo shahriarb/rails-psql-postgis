@@ -23,3 +23,4 @@ production:
   encoding: utf8
   postgis_extension: true
   database: postgis_sample_production
+  schema_search_path: 'public, postgis'
